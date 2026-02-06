@@ -51,7 +51,8 @@ or play the sample audio included.
 
 ## 📸 Preview
 
-(Add a screenshot here — highly recommended)
+<img width="1445" height="958" alt="Screenshot 2026-02-06 143425" src="https://github.com/user-attachments/assets/5c09688c-4f8b-462c-b169-ea79e463b4e0" />
+
 
 ---
 
