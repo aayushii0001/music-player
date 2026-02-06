@@ -46,7 +46,7 @@ class Project implements ActionListener {
 	
 	Border border = BorderFactory.createLineBorder(Color.WHITE, 5);
 	
-	File file = new File("watch.wav");
+	File file = new File("assets/watch.wav");
     AudioInputStream audio = AudioSystem.getAudioInputStream(file);
     Clip clip = AudioSystem.getClip();
     
@@ -63,7 +63,7 @@ class Project implements ActionListener {
     JLabel playtext = new JLabel("PLAY");
     JLabel pausetext = new JLabel("PAUSE");
     JLabel replaytext = new JLabel("REPLAY");
-    ImageIcon witch = new ImageIcon("witch.png");
+    ImageIcon witch = new ImageIcon("assets/witch.png");
     
     JButton importBtn = new JButton("IMPORT");
  	
@@ -71,9 +71,9 @@ class Project implements ActionListener {
 	JButton pause = new JButton();
 	JButton replay = new JButton();
 	
-	ImageIcon playpng = new ImageIcon("play.png");
-	ImageIcon pausepng = new ImageIcon("pause.png");
-	ImageIcon replaypng = new ImageIcon("replay.png");
+	ImageIcon playpng = new ImageIcon("assets/play.png");
+	ImageIcon pausepng = new ImageIcon("assets/pause.png");
+	ImageIcon replaypng = new ImageIcon("assets/replay.png");
 	
 	Project() throws UnsupportedAudioFileException, IOException, LineUnavailableException {
 	
@@ -100,7 +100,7 @@ class Project implements ActionListener {
 	
     frame.getRootPane().setBorder(border);
 	
-	ImageIcon image = new ImageIcon("titleplay.png");
+	ImageIcon image = new ImageIcon("assets/titleplay.png");
 	frame.setIconImage(image.getImage());
 	frame.getContentPane().setBackground(Color.black);
 	
