@@ -78,7 +78,4 @@ or play the sample audio included.
 
 ---
 
-## 👩‍💻 Author
-
-**Aayushi Saini**
-BCA Student | Aspiring Software Developer | Web & Java Enthusiast
+Star the repository!
